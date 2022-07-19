@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0%;
+  height: 100%;
+  /* text-align: center; */
+}
+#qa{
+  text-align: center;
+color:black;
+box-sizing: content-box;
+ width: 400px; ;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 20px;
+margin-left: 20px;
+/* background opacity: 10%; */
+/* margin: auto; */
+/* border-width:thick; */
+}
+#bg1{
+  background-image: url(person.png);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+ opacity: 90%;
+}
+#bg1 fieldset{
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 25px;
+  margin-left: 20px;
+}
+#lol{
+  margin-left: 270px;
+  /* text-align: center; */
+  font-size: 30px;
+  color: aliceblue;
+}
+#lol1{ 
+  margin-left: 270px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+form{
+  border: 1px solid #e67300;
+  float: right;
+  margin-right: 20px;
+  font-size: 30px;
+  border-spacing: 20px;
+  font-style: bold;
+  width: 300px;
+  text-align: center;
+  color:#e67300;
+  
+}
+
+input.label{
+background-color: #e67300;
+}
+
+#bg2{
+  background-image: url(Dessert.png);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 90%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  font-family: 'Qahiri', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+/* #bg2 fieldset{
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 25px;
+  margin-left: 20px;
+} */
+/* #qw{
+  text-align: center;
+color:black;
+box-sizing: content-box;
+ width: 400px; ;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 20px;
+margin-left: 20px;
+/* background opacity: 10%; */
+/* margin: auto; */
+/* border-width:thick; */
+
+.fd{
+  text-align: center;
+  font-family: 'Qahiri', sans-serif;
+  font-size: 70px;
+}
+.column1 {
+  float: left;
+  width: 40%;
+  padding: 0px;
+  margin-left: 60px; 
+   height: 50%; 
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.dance{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#bg3{
+  background-image: url(Hawa\ Mahal.png);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin-top: 0%;
+  padding-top: 0%;
+  /* opacity: 90%; */
+  font-family:'Dancing Script', cursive ;
+  color: bisque;
+  font-size: 25px;
+}
+
+/* #bg3 fieldset{
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 25px;
+  margin-left: 20px;
+  color: white;
+} */
+/* #qs{
+  text-align: center;
+color:black;
+box-sizing: content-box;
+ width: 400px; ;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 20px;
+margin-left: 20px;
+/* background opacity: 10%; */
+/* margin: auto; */
+/* border-width:thick; */
+
+.pg3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+/* .fort1{
+  /* margin-top: 0px; */
+  /* margin-bottom: 25px; */
+  /* margin-left: 20px; */
+ /* color: bisque; 
+}*/
+
+/* .n1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  margin-left: 40px;
+ color: bisque;
+} */
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+  margin-left: 60px;
+  /* height: 50%; */
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#etc{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+#checkcookies{
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 47%;
+background: bisque;
+}
+
+.footer{
+  background:#333;
+}
+
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.footer .box-container .box{
+  padding:1rem 0;
+  flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  padding:.7rem 0;
+  color:#fff;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a:hover{
+  color:var(--orange);
+  text-decoration: underline;
+}
+
+.footer .credit{
+  text-align: center;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color:#fff;
+  border-top: .1rem solid rgba(255,255,255,.2);
+}
+
+.footer .credit span{
+  color:var(--orange);
+}
